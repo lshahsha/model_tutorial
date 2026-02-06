@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Blender: Run current file",
+      "type": "shell",
+      "command": "/Applications/Blender.app/Contents/MacOS/Blender",
+      "args": [
+        "--background",
+        "--python",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

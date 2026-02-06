@@ -1,0 +1,4 @@
+{
+    "python.analysis.extraPaths": ["${workspaceFolder}; ${workspaceFolder}/..; ${workspaceFolder}/notebooks"],
+    "python.terminal.activateEnvironment": true
+}
